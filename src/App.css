@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  line-height: 1.4;
+  color: #1f1f1f;
+  background-color: #4803c0;
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 10px;
+  padding: 50px;
+  margin-top: 100px;
+  border-radius: 8px;;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(46, 46, 46, 0.701);
+}
+
+.form-container {
+  display: flex;
+  width: 100%;
+  margin-top:20px;
+}
+
+.input-text {
+  flex: 8;
+  font-size: 14px;
+  padding: 12px 15px;
+  border: 1px solid #cecece;
+  outline: none;
+  font-weight: 400;
+  max-width: 80%;
+  border-radius: 8px 0 0 8px;
+}
+
+.input-text::placeholder {
+  color: #999;
+}
+
+.input-submit {
+  flex: 2;
+  border: none;
+  background: #4803c0;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 600;
+  width: 20%;
+  outline: none;
+  border-radius: 0 8px 8px 0;
+}
+
+.todo-item {
+  list-style-type: none;
+  padding: 17px 0px;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.todo-item input {
+  margin-right: 15px;
+}
+
+.todo-item button {
+  background: #d3230f;
+  color: #fff;
+  border: 1px solid #d3230f;
+  padding: 3px 7px;
+  cursor: pointer;
+  float: right;
+  outline: none;
+  border-radius: 8px;
+}
