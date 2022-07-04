@@ -1,0 +1,6 @@
+.completed {
+  font-style: italic;
+  color: #4a4a4a;
+  opacity: 0.4;
+  text-decoration: line-through;
+}

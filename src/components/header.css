@@ -1,0 +1,15 @@
+.header {
+  padding: 20px 0;
+  line-height: 2em;
+}
+
+.header h1 {
+  font-size: 50px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.header p {
+  font-size: 15px;
+  text-align: center;
+}
