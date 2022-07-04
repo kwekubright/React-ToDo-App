@@ -1,4 +1,5 @@
-import React from "react";
+/* eslint-disable */
+import React from 'react';
 import './todoItem.css';
 
 class TodoItem extends React.Component {

@@ -17,7 +17,7 @@ body {
   padding: 0 10px;
   padding: 50px;
   margin-top: 100px;
-  border-radius: 8px;;
+  border-radius: 8px;
   background-color: #fff;
   box-shadow: 0 0 10px rgba(46, 46, 46, 0.701);
 }
@@ -25,7 +25,7 @@ body {
 .form-container {
   display: flex;
   width: 100%;
-  margin-top:20px;
+  margin-top: 20px;
 }
 
 .input-text {
@@ -58,7 +58,7 @@ body {
 
 .todo-item {
   list-style-type: none;
-  padding: 17px 0px;
+  padding: 17px 0;
   border-bottom: 1px solid #eaeaea;
 }
 

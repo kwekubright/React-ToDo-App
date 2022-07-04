@@ -1,28 +1,31 @@
-import React from "react";
+/* eslint-disable */
+import React from 'react';
 
 class InputTodo extends React.Component {
-  state = {
-    title: ""
-  };
+  constructor(props) {
+    super(props);
+    this.state = {
+      title: '',
+    };
+  }
 
-  onChange = e => {
+  onChange = (e) => {
     this.setState({
-      [e.target.name]: e.target.value
+      [e.target.name]: e.target.value,
     });
   };
 
-  handleSubmit = e => {
-    e.preventDefault()
-    if (this.state.title.trim()) {
-      this.props.addTodoProps(this.state.title)
+  handleSubmit = (e) => {
+    const { comState } = this.state;
+    const { comProps } = this.props;
+    e.preventDefault();
+    if (comState.title.trim()) {
+      comProps.addTodoProps(comState.title);
       this.setState({
-        title: "",
-      })
-    } else {
-      alert("Please write item")
-    }
+        title: '',
+      });
+    } 
   };
-
 
   render() {
     return (
@@ -31,7 +34,7 @@ class InputTodo extends React.Component {
           type="text"
           className="input-text"
           placeholder="Add todo..."
-          value={this.state.title}
+          value={comState.title}
           name="title"
           onChange={this.onChange}
         />
